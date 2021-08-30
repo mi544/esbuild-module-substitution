@@ -1,0 +1,19 @@
+{
+  "name": "esbuild-module-substitution",
+  "description": "Example repo that involves depenedencies' modules substitution with esbuild",
+  "version": "1.0.0",
+  "repository": "git@github.com:mi544/udemy-captions-translator.git",
+  "scripts": {
+    "build": "node ./scripts/esbuild.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.12.24"
+  },
+  "dependencies": {
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1"
+  },
+  "browser": {
+    "os": "os-browserify"
+  }
+}
