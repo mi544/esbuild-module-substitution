@@ -14,6 +14,9 @@ All yarn dependencies are already included in this repo. Please **DO NOT** run
 `yarn install` as that will remove fake dependencies added to `node_modules`
 for illustrative purposes  
 
+If you need to run `yarn install`, move `local-fs/` and `funny-logs/` folders
+out of `node-modules/` first, run `yarn install`, then put the folders back  
+
 ## Building with ESBuild
 
 Build by running `yarn build`  
